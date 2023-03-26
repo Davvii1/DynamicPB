@@ -5,7 +5,7 @@ import PreviewBar from './PreviewBar'
 import Clipboard from './assets/clipboard.svg'
 
 const Customize = () => {
-    useEffect(() => { document.title = "DynamicPB ~ Cutomize" }, [])
+    useEffect(() => { document.title = "DynamicPB ~ Customize" }, [])
 
     const [data, setData] = useState({
         start: "",
