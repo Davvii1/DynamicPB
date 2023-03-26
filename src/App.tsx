@@ -6,8 +6,8 @@ import './App.css'
 function App() {
   return (
     <Routes>
-      <Route path='/custom' element={<ProgressBar />} />
-      <Route path='/' element={<Customize />} />
+      <Route path='custom' element={<ProgressBar />} />
+      <Route path='' element={<Customize />} />
     </Routes>
   )
 }
