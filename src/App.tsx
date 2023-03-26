@@ -7,7 +7,7 @@ function App() {
   return (
     <Routes>
       <Route path='/custom' element={<ProgressBar />} />
-      <Route path='/' element={<Customize />} />
+      <Route path='/DynamicPB' element={<Customize />} />
     </Routes>
   )
 }
