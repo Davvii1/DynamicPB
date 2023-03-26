@@ -91,7 +91,7 @@ const Customize = () => {
         setPressed(false);
     }
 
-    const link = `${window.location.href}/custom?${checkStart ? `&start=${data.start}` : ''}${checkEnd ? `&end=${data.end}` : ''}&barHex=${data.barHex.replace('#', '')}&borderHex=${data.borderHex.replace('#', '')}${checkBackground ? `&background=${data.background}&bkgPosition=${data.bkgPosition}` : ''}${checkIcon ? `&icon=${data.icon}` : ''}`
+    const link = `${window.location.href}custom?${checkStart ? `&start=${data.start}` : ''}${checkEnd ? `&end=${data.end}` : ''}&barHex=${data.barHex.replace('#', '')}&borderHex=${data.borderHex.replace('#', '')}${checkBackground ? `&background=${data.background}&bkgPosition=${data.bkgPosition}` : ''}${checkIcon ? `&icon=${data.icon}` : ''}`
 
     return (
         <div className='container'>
