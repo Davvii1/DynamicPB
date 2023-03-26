@@ -1,0 +1,71 @@
+@media (min-width: 1024px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .inputsContainer {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+}
+
+input,
+select {
+  height: 1.75rem;
+}
+
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputsContainer > * {
+  margin-top: 0.5rem;
+  line-height: 1rem;
+}
+
+.mapContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.mapContainer > * {
+  margin-top: 0.5rem;
+  line-height: 1rem;
+}
+
+.colorInput {
+  display: flex;
+  align-items: center;
+}
+
+.colorInput > input {
+  margin-left: 0.5rem;
+}
+
+.preview {
+  margin-top: 1rem;
+  position: relative;
+}
+
+.preview > input {
+  width: 100%;
+  text-align: center;
+}
+
+h1,
+h2,
+h4 {
+  text-align: center;
+}
+
+#clipboard {
+  position: absolute;
+  height: 1.25rem;
+  right: 0.5rem;
+}
+
+#clipboard:active {
+    opacity: 70%;
+}
+

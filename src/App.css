@@ -1,0 +1,19 @@
+.outside-container {
+  width: 100%;
+  border: 1px solid;
+  border-radius: 0.75rem;
+  height: 35px;
+  background-size: cover;
+}
+
+.inside-container {
+  height: 100%;
+  border-radius: 0.75rem;
+  position: relative;
+}
+
+img {
+  height: 100%;
+  position: absolute;
+  right: -10px;
+} 
