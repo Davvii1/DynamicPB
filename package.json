@@ -1,9 +1,8 @@
 {
   "name": "dynamicpb",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://davvii1.github.io/DynamicPB/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
